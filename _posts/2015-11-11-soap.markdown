@@ -2,6 +2,7 @@
 published: true
 title: SOAP بررسی پروتکل 
 layout: post
+permalink: SOAP
 ---
 SOAP چیست؟
 مخفف Simple Object Access Protocol و یک پروتکل مبتنی بر XML برای رد و بدل کردن اطلاعات بین برنامه ها است. اطلاعات در SOAP به صورت پیام (Message) و از طریق پروتکل‏های موجود در اینترنت مانند HTTP منتقل می‏شود (SOAP در سایر پروتکل ها، مانند SMTP یا MIME نیز قابل استفاده است). به زبان ساده‏ تر، SOAP یک پروتکل برای دستیابی به یک سرویس ارایه شده در وب (Web Service) است.
@@ -27,4 +28,3 @@ SOAP چیست؟
 ⦁	A Header element that contains header information
 ⦁	A Body element that contains call and response information
 ⦁	A Fault element containing errors and status information
-
