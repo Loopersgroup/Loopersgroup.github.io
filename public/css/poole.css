@@ -35,6 +35,22 @@
  * Update the foundational and global aspects of the page.
  */
 
+@font-face {
+    font-family: 'WRoya';
+    src: url('fonts/RoyaWeb-Regular.eot');
+    src: url("fonts/RoyaWeb-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/RoyaWeb-Regular.woff") format("woff"), url("fonts/RoyaWeb-Regular.ttf") format("truetype"), url('fonts/RoyaWeb-Regular.svg#wroya') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WRoya';
+    src: url('fonts/RoyaWeb-Bold.eot');
+    src: url("fonts/RoyaWeb-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/RoyaWeb-Bold.woff") format("woff"), url("fonts/RoyaWeb-Bold.ttf") format("truetype"), url('fonts/RoyaWeb-Bold.svg#wroya') format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -49,7 +65,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "WRoya", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -148,7 +164,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: 'WRoya', Menlo, Monaco, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -362,7 +378,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'WRoya',"PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
