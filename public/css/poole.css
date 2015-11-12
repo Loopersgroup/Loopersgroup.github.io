@@ -319,6 +319,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
+    text-align: justify;
   margin-bottom: 4em;
 }
 
